@@ -77,12 +77,11 @@ export default function Page() {
       {/* Education Section */}
       <section className={styles.section}>
         <div className={styles.contentorg}>
-          <h4>Formação</h4>
+          <div className={styles.titlesection}>Formação</div>
           <div className={styles.contentsection}>
             <div className={styles.card}>
                 <h3 className="">Pós Graduação</h3>
-                <p className="">Desenvolvimento Mobile Multiplataforma</p>
-                <p className="">DESCOMPLICA(2023)</p>
+                <p className="">Desenvolvimento Mobile Multiplataforma - DESCOMPLICA(2023)</p>
               </div>
               <div className={styles.card}>
                 <h3 className="">Trilha Front-End</h3>
@@ -94,8 +93,7 @@ export default function Page() {
               </div>
               <div className={styles.card}>
                 <h3 className="">Bacharelado</h3>
-                <p className="">Arquitetura e Urbanismo</p>
-                <p className="">UNA(2022)</p>
+                <p className="">Arquitetura e Urbanismo - UNA(2022)</p>
               </div>
           </div>
 
