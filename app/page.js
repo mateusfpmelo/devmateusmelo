@@ -9,7 +9,7 @@ export default function Page() {
         <div className={styles.htxt}>
           <div className={styles.txtinf}>
             <h1 className="">Dev</h1>
-            <h2 className="">Front End</h2>
+            <h2 className="">Web</h2>
             <h4>MATEUS MELO</h4>
           </div>
           <p className="">
