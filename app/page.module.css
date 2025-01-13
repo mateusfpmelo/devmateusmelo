@@ -3,13 +3,15 @@
 .page {
   min-height: 100vh;
   padding: 5% 0;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #111111;
   color: white;
+  max-width: 100vw;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .header{
@@ -70,8 +72,9 @@
 .skills {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap:8px;
+  overflow-x: auto; /* Permite o scroll horizontal */
 }
 
 .section{
@@ -79,9 +82,25 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 400px;
-  background-color: white;
-  color: black;
+}
+
+.contentorg{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  gap:32px;
+  padding: 4% 1%;
+  background-color: #fff;
+  color:#111111;
+}
+
+.contentsection{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  overflow-x: auto; /* Permite o scroll horizontal */
 }
 
 .card{
@@ -94,11 +113,198 @@
 }
 
 
-@media (max-width: 600px) {
+
+
+
+
+
+
+.projects{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  max-width: 1200px;
+  text-align: left;
+  padding: 0 0 5% 0;
+  gap:32px;
+}
+
+.devweb{
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  background-color: #fff;
+  padding: 1%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Animação ao interagir */
+  max-width: 60%;
+  color:#111111;
+}
+
+.devweb:hover {
+  transform: translateY(-4px); /* Eleva o card levemente */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra mais forte */
+}
+
+.projectscol{
+  display: flex;
+  flex-direction: column;
+  gap:32px;
+}
+
+
+.projectsrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap:32px;
+  text-align: right;
+  padding: 5% 0 0 0;
+}
+
+.pjttxt1{
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  max-width: 400px;
+}
+
+.txtproject2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  gap:32px;
+  padding: 5% 0;
+  text-align: right;
+}
+
+.txtproject2 h3{
+  min-width: 250px;
+}
+
+.txtproject3{
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  text-align: right;
+}
+
+
+
+
+
+
+.footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footercontent{
+  display: flex;
+  flex-direction: row;
+  gap:32px;
+  max-width: 1200px;
+  width: 100%;
+  padding: 5% 0;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footerperson{
+  display: flex;
+  flex-direction: column;
+  gap:4px;
+  text-align: right;
+}
+.footersocial{
+  display: flex;
+  flex-direction: row;
+  gap:16px;
+}
+
+
+
+
+
+.cardproject{
+  display: flex;
+  padding: 5% 1% ;
+  min-width: 80%;
+  background-color: #008d76;
+  color: #fff;
+  text-align: left;
+}
+
+
+
+@media (max-width: 900px) {
   .header{
     flex-direction: column-reverse;
+    padding: 5%;
+    align-items: flex-end;
   }
+
+  .htxt{
+    padding: 8px;
+  }
+
   .section{
     flex-direction: column;
   }
+  .header img{
+    width: 300px !important;
+    height: auto;
+  }
+
+
+  .projects{
+    padding: 5% 5% 10% 5%;
+    gap:16px;
+  }
+  .devweb{
+    max-width: 90%;
+  }
+    
+  .projectscol{
+    gap:16px;
+  }
+  .projectsrow{
+    flex-direction: column;
+    gap:16px;
+    align-items: center;
+  }
+  .imgnegociation{
+    width: 300px;
+    height: auto;
+  }
+
+  .txtproject2{
+    flex-direction: column;
+    gap:16px;
+    padding: 5%;
+  }
+
+  .contentsection{
+    gap:32px;
+  }
+  .contentorg{
+    padding: 10% 5%;
+  }
+
+  .footer{
+    flex-direction: column;
+  }
+
+  .footercontent{
+    padding: 10% 5%;
+  }
+  .footerperson{
+    font-size: 14px;
+  }
+  .cardproject{
+    padding: 5%;
+  }
+  
 }

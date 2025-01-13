@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Maven Pro', sans-serif;
 }
 .body {
   font-family: 'Maven Pro', sans-serif;
@@ -22,6 +23,20 @@ h2{
 h4{
   font-size: 36px;
 }
+
+
+.color1{
+  color: #FF00B2;
+}
+
+.color2{
+  color: #00FFD4;
+}
+
+.color3{
+  color: #008d76;
+}
+
 @media(max-width: 1000px){
   h1{
     font-size: 42px;
