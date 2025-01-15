@@ -45,7 +45,7 @@ export default function Page() {
               Desenvolvimento de Plataforma Web para Gestão de Negociações com Clientes
             </h3>
             <p className="">
-              Desenvolvi uma aplicação web que permite a consulta de dados de clientes a partir de um número de telefone ou CPF/CNPJ, além de possibilitar a integração com API. O gestor de contas pode solicitar opções de negociação, que são apresentadas na interface para facilitar a concretização de acordos.
+              Desenvolvi uma aplicação web que permite a consulta de dados de clientes a partir da matrícula. Onde o gestor de contas pode solicitar opções de negociação, que são apresentadas na interface para facilitar a concretização de acordos. Resultando em redução de custos aplicativos terceiros agora que só neste app voce faz todo o processo de negociação.
             </p>
           </div>
           <Image
@@ -58,18 +58,18 @@ export default function Page() {
         </div>
         <div className={styles.txtproject2}>
           <h3 className="color3">
-            Desenvolvimento de uma solução escalável para gestão de campanhas e cadastro de clientes
+            Desenvolvimento de Solução Escalável para Gestão de Campanhas e Cadastro de Clientes
           </h3>
           <p className={styles.cardproject}>
-            Participei da criação de uma nova aplicação, projetada para substituir uma ferramenta anterior sem capacidade de escalabilidade. A nova solução, desenvolvida com foco na experiência do usuário, permite realizar a gestão eficiente de cadastros de clientes e campanhas de disparo de e-mails e SMS. Entre as principais funcionalidades da ferramenta estão: cadastro de clientes com informações de e-mail e centro de custo, criação de campanhas, configuração de modelos de mensagens, além de um mecanismo de disparo de testes. Essa aplicação garante maior agilidade e automação nos processos, otimizando a comunicação e o alcance das campanhas.
+            Contribuí para o desenvolvimento de uma aplicação inovadora, projetada para substituir uma ferramenta obsoleta e limitada em escalabilidade. Essa nova solução, criada com foco na experiência do usuário, possibilita uma gestão otimizada de cadastros de clientes e campanhas de comunicação via e-mail e SMS. Entre as funcionalidades destacam-se: cadastro detalhado de clientes com informações personalizadas, criação de campanhas segmentadas, configuração intuitiva de modelos de mensagens e um recurso prático para testes de disparos. A aplicação oferece maior eficiência e automação nos processos, impulsionando a comunicação estratégica e ampliando o alcance das campanhas.
           </p>
         </div>
         <div className={styles.txtproject3}>
           <h3 className="color1">
-            Desenvolvimento de Site e Landing Pages Interativas
+            Criação de Sites e Landing Pages Interativas
           </h3>
-          <p className="">
-            Recebi os layouts e implementei alguns códigos de site e de  landing pages interativas, utilizando Next.js e React para garantir uma experiência de usuário otimizada. As páginas foram projetadas para apresentar informações de forma clara e acessível, facilitando a navegação e o acesso às informações. Entra em contato comigo que te mando alguns links!
+          <p>
+            Transformei layouts em código funcional, desenvolvendo sites e landing pages interativas com o uso de Next.js e React, sempre priorizando uma experiência do usuário fluida e eficiente. As páginas foram cuidadosamente estruturadas para apresentar informações de maneira clara e atrativa, garantindo navegação intuitiva e acessibilidade. Se você deseja conferir alguns exemplos, entre em contato comigo e compartilho os links!
           </p>
         </div>
       </section>
@@ -81,7 +81,7 @@ export default function Page() {
           <div className={styles.contentsection}>
             <div className={styles.card}>
                 <h3 className="">Pós Graduação</h3>
-                <p className="">Desenvolvimento Mobile Multiplataforma - DESCOMPLICA(2023)</p>
+                <p className="">Desenvolvimento de Aplicações Móveis Multiplataforma - DESCOMPLICA(2023)</p>
               </div>
               <div className={styles.card}>
                 <h3 className="">Trilha Front-End</h3>
