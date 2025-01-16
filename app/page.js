@@ -116,11 +116,11 @@ export default function Page() {
             <p>(31) 9 99455-6653</p>
             <p>Funcionários, Belo Horizonte/MG</p>
             <p>mateusfpmelodev@gmail.com</p>
+          </div>
+          <div className={styles.footersocial}>
             <a href="https://wa.me/5531994556653?text=Olá,%20gostaria%20de%20saber%20mais%20informações." className="" target="_blank">
               <Image src={"/img/wpp.png"} width={25} height={25} alt={"Logo Whatsapp"}  className={"icon"} />
             </a>
-          </div>
-          <div className={styles.footersocial}>
             <a href="https://github.com/mateusfpmelo" className="">
               <Image src={"/img/github.png"} width={25} height={25} alt={"Logo github"} className={"icon"} />
             </a>
