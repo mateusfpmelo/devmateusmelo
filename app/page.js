@@ -12,7 +12,7 @@ export default function Page() {
             <h4>MATEUS MELO</h4>
           </div>
           <p className="">
-            Apaixonado por tecnologia e encantado pela lógica por trás das soluções digitais, transitei para a área de desenvolvimento web  em 2021. Sou pós-graduado em Projetos de Aplicativos Móveis Multiplataforma e formado em Arquitetura e Urbanismo pela UNA. Minha paixão pela lógica e minha habilidade em resolver problemas impulsionaram essa mudança de carreira. Minhas especialidades incluem React, Next.js e Python, além de experiência em consumo de APIs. Desenvolvo sites, aplicativos internos, landing pages e layouts com foco em funcionalidade.
+            Apaixonado por tecnologia e fascinado pela lógica por trás das soluções digitais, migrei para a área de desenvolvimento web em 2021. Sou pós-graduado em Projetos de Aplicativos Móveis Multiplataforma e formado em Arquitetura e Urbanismo pela UNA. Minha paixão pela lógica e habilidade para resolver problemas impulsionaram essa mudança de carreira. Minhas especialidades incluem React, Next.js e Python, além de experiência no consumo de APIs. Desenvolvo sites, aplicativos internos, landing pages e layouts com foco na funcionalidade.
           </p>
           <div className={styles.divskil}>
             <b>
@@ -38,13 +38,21 @@ export default function Page() {
           <b>Alguns projetos:</b>
         </div>
         {/* Project divs */}
+        <div className={styles.txtproject2}>
+          <h3 className="color3">
+            Desenvolvimento de Solução Escalável para Gestão de Campanhas e Cadastro de Clientes
+          </h3>
+          <p className={styles.cardproject}>
+            Contribuí para o desenvolvimento de uma aplicação inovadora projetada para substituir uma ferramenta obsoleta e limitada em escalabilidade. Essa nova solução, criada com foco na experiência do usuário, possibilita a gestão otimizada de cadastros de clientes e campanhas de comunicação via e-mail e SMS. Entre as funcionalidades, destacam-se: cadastro detalhado de clientes com informações personalizadas, criação de campanhas segmentadas, configuração intuitiva de modelos de mensagens e um recurso prático para testes de disparos. A aplicação oferece maior eficiência e automação nos processos, impulsionando a comunicação estratégica e ampliando o alcance das campanhas.
+          </p>
+        </div>
         <div className={styles.projectsrow}>
           <div className={styles.pjttxt1}>
             <h3 className="color1">
               Desenvolvimento de Plataforma Web para Gestão de Negociações com Clientes
             </h3>
             <p className="">
-              Desenvolvi uma aplicação web que permite a consulta de dados de clientes a partir da matrícula. Onde o gestor de contas pode solicitar opções de negociação, que são apresentadas na interface para facilitar a concretização de acordos. Resultando em redução de custos aplicativos terceiros agora que só neste app voce faz todo o processo de negociação.
+              Desenvolvi uma aplicação web que permite a consulta de dados de clientes a partir da matrícula, onde o gestor de contas pode solicitar opções de negociação que são apresentadas na interface para facilitar a concretização de acordos. Isso resultou na redução de custos com aplicativos de terceiros, pois todo o processo de negociação agora pode ser realizado nesse app.
             </p>
           </div>
           <Image
@@ -55,24 +63,25 @@ export default function Page() {
             className={styles.imgnegociation}
           />
         </div>
-        <div className={styles.txtproject2}>
-          <h3 className="color3">
-            Desenvolvimento de Solução Escalável para Gestão de Campanhas e Cadastro de Clientes
-          </h3>
-          <p className={styles.cardproject}>
-            Contribuí para o desenvolvimento de uma aplicação inovadora, projetada para substituir uma ferramenta obsoleta e limitada em escalabilidade. Essa nova solução, criada com foco na experiência do usuário, possibilita uma gestão otimizada de cadastros de clientes e campanhas de comunicação via e-mail e SMS. Entre as funcionalidades destacam-se: cadastro detalhado de clientes com informações personalizadas, criação de campanhas segmentadas, configuração intuitiva de modelos de mensagens e um recurso prático para testes de disparos. A aplicação oferece maior eficiência e automação nos processos, impulsionando a comunicação estratégica e ampliando o alcance das campanhas.
-          </p>
-        </div>
-        <div className={styles.txtproject3}>
-          <h3 className="color1">
-            Criação de Sites e Landing Pages Interativas
-          </h3>
-          <p>
-            Transformei layouts em código funcional, desenvolvendo sites e landing pages interativas com o uso de Next.js e React, sempre priorizando uma experiência do usuário fluida e eficiente. As páginas foram cuidadosamente estruturadas para apresentar informações de maneira clara e atrativa, garantindo navegação intuitiva e acessibilidade. Se você deseja conferir alguns exemplos, entre em contato comigo e compartilho os links!
-          </p>
-        </div>
       </section>
 
+      {/* Experience Section */}
+      <section className={styles.section}>
+      <div className={styles.contentorg1}>
+        <div className={styles.titlesection}>Experiência</div>
+        <div className={styles.contentsection}>
+          <div className={styles.card}>
+              <h3 className="">Desenvolvedor Web | @somosyoung</h3>
+              <p className="">julho/2022 - Atual</p>
+            </div>
+            <div className={styles.card}>
+              <h3 className="">Gestão de Manutenção Preventiva/Corretiva(MG)  | @ultragazoficial</h3>
+              <p className="">2013 - 2021</p>
+            </div>
+        </div>
+        
+      </div>
+    </section>
       {/* Education Section */}
       <section className={styles.section}>
         <div className={styles.contentorg}>
@@ -95,9 +104,10 @@ export default function Page() {
                 <p className="">Arquitetura e Urbanismo - UNA(2022)</p>
               </div>
           </div>
-
+          
         </div>
       </section>
+
 
       {/* Footer */}
       <footer className={styles.footer}>
