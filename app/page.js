@@ -117,18 +117,18 @@ export default function Page() {
             <p>Funcionários, Belo Horizonte/MG</p>
             <p>mateusfpmelodev@gmail.com</p>
             <a href="https://wa.me/5531994556653?text=Olá,%20gostaria%20de%20saber%20mais%20informações." className="" target="_blank">
-              <Image src={"/img/wpp.png"} width={25} height={25} alt={"Logo Whatsapp"}  />
+              <Image src={"/img/wpp.png"} width={25} height={25} alt={"Logo Whatsapp"}  className={"icon"} />
             </a>
           </div>
           <div className={styles.footersocial}>
             <a href="https://github.com/mateusfpmelo" className="">
-              <Image src={"/img/github.png"} width={25} height={25} alt={"Logo github"}  />
+              <Image src={"/img/github.png"} width={25} height={25} alt={"Logo github"} className={"icon"} />
             </a>
             <a href="https://instagram.com/mateusfpmelo" className="">
-              <Image src={"/img/insta.png"} width={25} height={25} alt={"Logo instagram"}  />
+              <Image src={"/img/insta.png"} width={25} height={25} alt={"Logo instagram"}  className={"icon"} />
             </a>
             <a href="https://www.linkedin.com/in/mateusfpmelo/" className="">
-              <Image src={"/img/linkedin.png"} width={25} height={25} alt={"Logo linkedin"}  />
+              <Image src={"/img/linkedin.png"} width={25} height={25} alt={"Logo linkedin"}  className={"icon"} />
             </a>
           </div>
         </div>

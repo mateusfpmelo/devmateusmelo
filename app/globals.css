@@ -48,6 +48,14 @@ h4{
   color: #008d76;
 }
 
+.icon{
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Animação ao interagir */
+}
+
+.icon:hover {
+  transform: scale(1.2) translateY(-5px); /* Aumenta o tamanho e sobe o ícone */
+}
+
 @media(max-width: 1000px){
   h1{
     font-size: 42px;
