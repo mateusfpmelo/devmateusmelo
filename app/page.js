@@ -20,7 +20,7 @@ export default function Page() {
               Skills
             </b>
             <div className={styles.skills}>
-              {['Next.js', 'React', 'GitHub', 'Python', 'Figma', 'Photoshop'].map((skill) => (
+              {['Next.js', 'React', 'GitHub', 'Python', 'Docker', 'Figma', 'Photoshop'].map((skill) => (
                 <div key={skill} className="">
                   {skill}
                 </div>
